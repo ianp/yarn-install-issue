@@ -1,0 +1,13 @@
+/node_modules
+
+.env
+.idea
+*.iml
+*.log
+.DS_Store
+
+# Don't commit any .js files that tsc generates by mistake
+# I'm not sure if it is IDEA or mocha that is generating these :-(
+/src/**/*.js
+/test/**/*.js
+
